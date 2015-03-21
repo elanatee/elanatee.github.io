@@ -2,11 +2,18 @@ body {
 	color: black;
 	font-size: 40px;
 	font-family: times;
+}
+
+h1, #center {
 	text-align: center;
 }
 
 p {
 	font-size: 25px;
+}
+
+a {
+	color: black;
 }
 
 a:hover{
@@ -15,4 +22,9 @@ a:hover{
 
 ul {
 	list-style-type: none;
+}
+
+footer {
+	text-align: center;	
+	padding: 150px;
 }
