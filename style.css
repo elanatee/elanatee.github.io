@@ -3,3 +3,11 @@ body {
 	font-family: times;
 	text-align: center;
 }
+
+p {
+	font-size: 25px;
+}
+
+ul {
+	list-style-type: none;
+}
