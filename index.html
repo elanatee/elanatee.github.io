@@ -9,6 +9,25 @@
   		<link rel="stylesheet" href="css/bootstrap.min.css">
   		<link href='http://fonts.googleapis.com/css?family=Fira+Sans' rel='stylesheet' type='text/css'>
   		<link rel="stylesheet" href="style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <script>
+        $(document).ready(function () {
+          $('a[href*=#]').click(function(e) {
+              e.preventDefault();
+
+              var target;
+              if(($(this).attr("href"))==="#")
+                  target = $("#home");
+              else
+                  target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              
+              $('html,body').animate({
+                   scrollTop: (target.offset().top) - 50
+              }, 1000, 'swing');
+          });
+        });
+      </script>
 	</head>
 
 	<body>
