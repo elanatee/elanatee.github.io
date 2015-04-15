@@ -2,4 +2,4 @@ elanatee.me
 ============
 My personal website! 
 
-It'll age gracefully. Like a fine wine. 
+It will get better with age. Like a fine wine.
