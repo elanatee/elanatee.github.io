@@ -32,7 +32,7 @@ body {
 
 .jumbotron .container {
 	position: relative;
-	top: 30px;
+	top: 5px;
 	width: 500px;
 	border-radius: 20px;
 	background: rgba(255,255,255,0.6);
@@ -54,7 +54,12 @@ h2 {
 	font-weight: bold;
 }
 
+a {
+	color: gray;
+}
+
 a:hover {
+	color: #3D3D3D;
 	text-decoration: none;
 }
 
@@ -91,8 +96,14 @@ p {
 
 .info .container a {
 	color: white;
+	text-decoration: none;
 }
 
+div.col-md-6 img {
+	width: 475px;
+	height: 315px;
+	padding-bottom: 10px;
+}
 
 footer {
 	color: black;
