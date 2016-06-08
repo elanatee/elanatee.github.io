@@ -1,20 +1,18 @@
 body {
-	padding: 100px;
-	font-size: 25px;
+	padding: 5%;
+	font-size: 200%;
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 }
 
 h1 {
-	margin: 0px;
-	padding: 20px;
-	font-size: 75px;
+	font-size: 350%;
 	font-family: 'Adamina', serif;
 }
 
 .small {
-	width: 15%;
-	height: 15%;
+	width: 20%;
+	height: 20%;
 	border-radius: 50%;
 }
 
@@ -23,13 +21,9 @@ h1 {
 	font-size: 20px;
 }
 
-.quote {
-	padding: 0px;
-	font-size: 35px;
-}
-
-.lvb {
-	padding: 20px;
+h1.quote {
+	padding: 1%;
+	font-size: 200%;
 }
 
 a:hover {
@@ -38,8 +32,11 @@ a:hover {
 }
 
 footer {
-	padding: 25px;
-	font-size: 15px;
+	font-size: 80%;
+}
+
+footer.home {
+	padding: 3%;
 }
 
 span.glyphicon {
