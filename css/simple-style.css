@@ -1,0 +1,47 @@
+body {
+	padding: 100px;
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+h1 {
+	margin: 0px;
+	padding: 20px;
+	font-size: 75px;
+	font-family: 'Adamina', serif;
+}
+
+.small {
+	width: 15%;
+	height: 15%;
+	border-radius: 50%;
+}
+
+.links {
+	padding: 15px;
+	font-size: 20px;
+}
+
+.quote {
+	padding: 0px;
+	font-size: 35px;
+}
+
+.lvb {
+	padding: 20px;
+}
+
+a:hover {
+	color: #ffdd99;
+	text-decoration: none;
+}
+
+footer {
+	padding: 25px;
+	font-size: 15px;
+}
+
+span.glyphicon {
+	padding: 0px;
+}
