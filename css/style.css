@@ -17,7 +17,6 @@ body {
 
 .navbar a {
 	color: black;
-	text-decoration: none;
 	padding: 15px 10px;
 }
 
@@ -31,7 +30,7 @@ body {
 }
 
 #home {
-	background-image: url('../res/self.JPG');
+	background-image: url('../img/self.JPG');
 	height: 675px;
   	background-repeat: no-repeat;
 	background-size: cover;
@@ -81,7 +80,7 @@ p {
 }
 
 .info {
-	background-image: url('../res/elana.JPG');
+	background-image: url('../img/elana.JPG');
 	height: 350px;
   	background-repeat: no-repeat;
 	background-size: cover;
@@ -123,6 +122,11 @@ footer {
 
 footer .container {
 	width: 50%;
+}
+
+
+span.glyphicon {
+	padding: 0px;
 }
 
 @media screen and (max-width: 1199px){

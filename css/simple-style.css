@@ -43,5 +43,6 @@ footer {
 }
 
 span.glyphicon {
-	padding: 0px;
+	font-size: 85%;
+	padding: none;
 }
