@@ -8,6 +8,17 @@ body {
 h1 {
 	font-size: 350%;
 	font-family: 'Adamina', serif;
+	margin: 0%;
+	padding-top: 1%;
+}
+
+div {
+	padding: 1%;
+}
+
+div.smaller {
+	padding: 0%;
+	font-size: 90%;
 }
 
 .small {
@@ -17,8 +28,7 @@ h1 {
 }
 
 .links {
-	padding: 15px;
-	font-size: 20px;
+	font-size: 100%;
 }
 
 h1.quote {
@@ -31,8 +41,13 @@ a:hover {
 	text-decoration: none;
 }
 
+a.quote {
+	color: black;
+}
+
 footer {
 	font-size: 80%;
+	padding: 1%;
 }
 
 footer.home {
