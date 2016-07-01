@@ -1,27 +1,34 @@
 body {
+	color: white;
+	/*colors of cookie's tongue from lightest to darkest*/
+	/*background-color: rgb(244, 202, 213);*/
+	background-color: rgb(196, 111, 133);
+	/*background-color: rgb(189, 88, 115);*/
+	margin-left: 6%;
+	margin-right: 6%;
+	margin-top: 4%;
+	margin-bottom: 4%;
 	padding: 5%;
+	border-style: solid;
+	border-width: medium;
 	font-size: 200%;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Helvetica Neue';
+	font-weight: lighter;
+	letter-spacing: 1px;
 	text-align: center;
 }
 
 h1 {
 	font-size: 350%;
-	font-family: 'Adamina', serif;
-	margin: 0%;
-	padding-top: 1%;
+	/*margin: 0%;*/
+	/*padding-top: 1%;*/
 }
 
 div {
-	padding: 1%;
+	padding: .5em;
 }
 
-div.smaller {
-	padding: 0%;
-	font-size: 90%;
-}
-
-.small {
+.photo {
 	width: 20%;
 	height: 20%;
 	border-radius: 50%;
@@ -29,11 +36,11 @@ div.smaller {
 
 .links {
 	font-size: 100%;
-}
+}	
 
-h1.quote {
-	padding: 1%;
-	font-size: 200%;
+a {
+	font-weight: normal;
+	color: white;
 }
 
 a:hover {
@@ -41,20 +48,25 @@ a:hover {
 	text-decoration: none;
 }
 
-a.quote {
-	color: black;
-}
-
 footer {
 	font-size: 80%;
+	/*padding: 1%;*/
+}
+
+span.glyphicon {
+	font-size: 85%;
+	padding: none;
+	color: white;
+}
+
+/****** quote.html *******/
+h1.quote {
 	padding: 1%;
+	font-size: 200%;
 }
 
 footer.home {
 	padding: 3%;
 }
 
-span.glyphicon {
-	font-size: 85%;
-	padding: none;
-}
+/*************************/
