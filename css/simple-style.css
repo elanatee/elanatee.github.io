@@ -51,6 +51,15 @@ a {
 	text-align: left;
 }
 
+.projects li a {
+	font-weight: normal;
+}
+
+.projects p a {
+	font-weight: lighter;
+	text-decoration: underline;
+}
+
 a:hover {
 	color: #ffdd99;
 	text-decoration: none;
@@ -58,7 +67,10 @@ a:hover {
 
 footer {
 	font-size: 80%;
-	/*padding: 1%;*/
+}
+
+footer a {
+	font-weight: normal;
 }
 
 span.glyphicon {
@@ -66,16 +78,3 @@ span.glyphicon {
 	padding: none;
 	color: white;
 }
-
-/****** quote.html *******/
-h1.quote {
-	padding: 1%;
-	font-size: 200%;
-}
-
-footer.home {
-	font-weight: normal;
-	padding-top: 3%;
-}
-
-/*************************/
