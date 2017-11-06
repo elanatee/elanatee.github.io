@@ -6,63 +6,31 @@ body {
 	margin-top: 4%;
 	margin-bottom: 4%;
 	padding: 5%;
-	/*border-style: solid;
-	border-width: medium;*/
 	font-size: 200%;
 	font-family: 'Helvetica Neue';
 	font-weight: lighter;
 	letter-spacing: 1px;
-	/*text-align: center;*/
 }
 
 h1 {
 	font-size: 350%;
-	/*margin: 0%;*/
-	/*padding-top: 1%;*/
 }
 
 div {
 	padding: .5em;
 }
 
-.photo {
-	width: 20%;
-	height: 20%;
-	border-radius: 50%;
+span.bold {
+	font-weight: normal;
 }
-
-.links {
-	font-size: 100%;
-}	
 
 a {
 	color: white;
-}
-
-.main a {
-	font-weight: normal;
-}
-
-.about a {
-	text-decoration: underline;
-}
-
-.about p {
-	text-align: left;
-}
-
-.projects li a {
-	font-weight: normal;
-}
-
-.projects p a {
-	font-weight: lighter;
 	text-decoration: underline;
 }
 
 a:hover {
-	color: #ffdd99;
-	text-decoration: none;
+	color: white;
 }
 
 footer {
@@ -71,10 +39,4 @@ footer {
 
 footer a {
 	font-weight: normal;
-}
-
-span.glyphicon {
-	font-size: 85%;
-	padding: none;
-	color: white;
 }
